@@ -1,6 +1,6 @@
-# Wireless Servo Control Using NRF24L01, MPU6050, and Flex Sensors
+# Haptic Control of 3 DOF Robotic Arm
 
-This project demonstrates how to use the NRF24L01 wireless module to send data from an MPU6050 accelerometer and two flex sensors to control three servo motors. The minimum reading of each flex sensor positions its respective servo motor at 0 degrees, and the maximum reading positions it at 180 degrees. The MPU6050's X-axis reading controls the third servo in a similar manner.
+This project demonstrates the use of the NRF24L01 wireless module to send data from an MPU6050 accelerometer and two flex sensors to control a 3-degree-of-freedom (DOF) robotic arm. By bending your fingers or twisting your hand, you can control the movements of the robotic arm.
 
 ## Components Used
 - 2 x NRF24L01 Wireless Modules
@@ -65,7 +65,7 @@ This project demonstrates how to use the NRF24L01 wireless module to send data f
 1. Power up both the transmitter and receiver units.
 2. The transmitter will read data from the MPU6050 and flex sensors.
 3. The data will be sent wirelessly via the NRF24L01 modules.
-4. The receiver will receive the data and control the servos accordingly.
+4. The receiver will receive the data and control the servos, moving the robotic arm accordingly.
 
 ## Notes
 - Ensure the NRF24L01 modules are connected properly and have sufficient power.
